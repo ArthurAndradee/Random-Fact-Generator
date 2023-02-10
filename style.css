@@ -1,12 +1,36 @@
+body {
+    background-image: linear-gradient(to right, rgb(112, 0, 0) , rgb(2, 0, 139));
+}
+
 h1 {
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+        }
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+
+.fact {
+    color: white;
+
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-        }
+}
 
-        section {
+p {
+    color: white;
+
     display: flex;
     justify-content: center;
     align-items: center;
-        }
+    margin-top: 5%;
+}
