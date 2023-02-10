@@ -28,7 +28,7 @@ function random() {
 
         "12. Você substitui cada partícula em seu corpo a cada sete anos. Você literalmente não é a mesma pessoa que era há 7 anos.",
 
-        "13. A probabilidade de que em qualquer copo d’água encontre pelo menos 1 molécula de água uma vez ingerida por Cleópatra é praticamente 100%.",
+        "13. A probabilidade de que em qualquer copo da água encontre pelo menos 1 molécula de água uma vez ingerida por Cleópatra é praticamente 100%.",
 
         "14. A Nutella foi inventada durante a Segunda Guerra Mundial, quando um confeiteiro italiano misturou avelãs com chocolate para estender sua ração de chocolate.",
 
@@ -53,9 +53,59 @@ function random() {
         "24. Ninguém sabe quem foi o primeiro que chamou nosso planeta de “Terra”.",
 
         "25. Um cubo mágico tradicional tem 43.252.003.274.489.856.000 de possíveis combinações diferentes. E, acredite se quiser, cada uma delas pode ser resolvida com 20 movimentos ou menos.",
+
+        "26. As rãs mais venenosas tem apenas 10 milímetros de comprimento.",
+
+        "27. Os lados opostos de um dado sempre somam sete.",
+
+        "28. Todos os ursos polares são considerados canhotos.",
+
+        "29. Uma água-viva não é feita de geleia – mas até 95% dela é realmente feito de água.",
+
+        "30. O sinal do infinito é chamado de lemniscata.",
+
+        "31. Os astronautas da Apollo 8 foram os primeiros a celebrar o Natal no espaço.",
+
+        "32. Acredita-se que o ser humano passa cerca de dois anos de sua vida ao telefone.",
+
+        "33. A Rainha Elizabeth II já foi treinada para ser mecânica.",
+
+        "34. Pensa-se que o Monte Everest já foi muito mais alto do que realmente é hoje – um terremoto o reduziu ao tamanho.",
+
+        "35. Acredita-se que até 50% das pessoas na Terra nunca tiveram que atender uma chamada telefônica.",
+
+        "36. Antigamente na França, esposas infiéis eram forçadas a perseguir galinhas nas ruas, completamente nuas.",
+
+        "37. Na história do Brasil, a moeda oficial mudou pelo menos oito vezes desde os anos 1940.",
+
+        "38. É perfeitamente possível para uma girafa limpar as orelhas com a língua.",
+
+        "39. Um estudo da Universidade de Chicago em 1915 concluiu que a cor mais fácil de detectar à distância é a cor amarela. É por isso que a cor mais popular para táxis é o amarelo.",
+
+        "40. As galinhas têm uma capacidade mais ampla de ver as cores, o que significa que é muito provável que possam ver toda a extensão da paleta de um arco-íris.",
+        
+        "41. Canetas esferográficas matam até 100 pessoas a cada ano em acidentes de asfixia.",
+        
+        "42. O cérebro de um avestruz tem mais ou menos o mesmo tamanho de um olho humano.",
+        
+        "43. Os camelos têm três pálpebras para poder proteger seus olhos da areia.",
+        
+        "44. Os cientistas mataram acidentalmente o animal mais velho do mundo ao tentar examiná-lo. Tratava-se de um molusco de mais de 500 anos.",
+        
+        "45. As aranhas são consideradas mais assustadoras do que a morte.",
+        
+        "46. Em gravidade zero, a chama de uma vela é redonda e azul.",
+        
+        "47. Diamantes reais não aparecem no raio-X.",
+        
+        "48. A caligrafia ilegível mostra que os médicos matam mais de 7.000 pessoas e fere mais de 1,5 milhão de pessoas anualmente devido ao uso do medicamento errado.",
+        
+        "49. A cadeira elétrica foi, acredite ou não, criação de um dentista.",
+        
+        "50. É possível que um furacão gaste mais energia em apenas dez minutos do que todas as armas nucleares do mundo conseguem em uma explosão.",
     ]
 
-    const selNumber = Math.floor(Math.random() * 25);
+    const selNumber = Math.floor(Math.random() * 50);
     const randomFact = possibleFacts[selNumber];
     
     const generateRandomFact = () => {
