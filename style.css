@@ -9,21 +9,14 @@ h1 {
     align-items: center;
     margin-top: 4%;
     margin-bottom: 2%;
-        }
+}
 
 section {
     display: flex;
     justify-content: center;
     align-items: center;
-        }
-
-.fact {
-    color: white;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
+    
+    margin-bottom: 7%;
 }
 
 p {
@@ -32,5 +25,17 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+}
+
+.factbox {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px white solid;
+
+    width: 600px;
+
+    margin-left: 28%;
+}
+
+.innerfactbox {
+    padding: 15px;
 }
